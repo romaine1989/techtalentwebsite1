@@ -1,0 +1,60 @@
+javascript should be in head
+it's loaded when you first open the page. this is better than putting in the content.
+
+animation may load slower cos it's not in the head
+
+load at same time as openning in head
+if in content of the website, then it loads when you click.
+
+if you have JS on one line then use ;
+If have multiple lines then you don't need it
+
+when in body it doesn't require a function
+when in head this will be a function which requires a user to initiate
+
+
+boolean - yes/no
+null/undefined - can type anything
+
+
+declaring a variable
+global - remains same througout whole code
+local - only visible within the fucntion
+no numbers in variable name
+
+dots are basically / to indicate the path
+
+list of reserved words which can't be used as variables
+
+
+
+arthmetic operators
+% - remainder
+++ - add 1
+-- - decrease by 1
+
+document.write (result) - is to output for JS
+
+comparison operators
+== - exactly the same as
+!= - not the same as
+> greater than
+< less than
+
+
+logicl operators
+&& and
+|| or
+! not
+
+anytime there is 1 involved the answer is always 1
+
+
+continue statement - continue will skip functio and carry on.
+break - will stop the loop
+
+events
+onclick - happn upon clicking 
+onsubmit - upon clikcing submit on a form
+onmouseover - hover effects etc.
+onmouseout - when you move mouse out of div/box

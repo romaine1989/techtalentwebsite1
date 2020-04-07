@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>talent match maker | home</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript">
+			var testimonials = []
+			testimonials [0] = "Lou is a here man, but I love her";
+			testimonials [1] = "Lou is a lovely man, but I love her";
+			testimonials [2] = "This is a good comment and you know it";
+			testimonials [3] = "This is a random comment by me";
+			testimonials [4] = "This is a testimonial";
+			testimonials [5] = "I loved it when Romaine did my project";
+			testimonials [6] = "Hello, the app is awesom to say the least";
+			testimonials [7] = "I would download it again if I had to";
+			testimonials [8] = "I would like the team to build another app";
+			testimonials [9] = "This app is one of a kind mate!";
+			testimonials [10] = "I would buy this app for a friend";
+			testimonials [11] = "I like the app. End of matey!";
+			testimonials [12] = "I guarantee you that you will love this app";
+
+			function myFunction() {
+				var randomName = Math.floor(Math.random()*(testimonials.length));
+				//randomName will be represented by the output of this 
+				//math.floor will make sure JS takes the biggest number which is equal to or less than the number generated in the brackets
+					//math.random generates a number which ranges from 0 to less than 1 (inclusive of 0, but not 1)
+					//and so the first part of this mulplication equates to a full number. As the floor forces a whole single number from the method in the brackets 
+				//then we multiply * this number by the length of the array called testimonials which reults in a whole number between the length of the array
+				document.getElementById('testimonial').innerHTML = testimonials[randomName];
+				// have created the variable testimonials and used the 'array object' [] to store multiple values in a single variable
+
+
+				// document.getElementById("testimonial").innerHTML = "This is a testimonial"
+				// document.getElementById("testimonial-button").style.display = 'none'
+			}
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+
+<!------------------ HEADER ------------------------------>	
+			<div class="header">
+				<div class="header-container">
+					<div class="inner">
+						<div class="site-title">
+							<a href="index.html">
+								<h1>romaine website</h1>
+							</a>
+						</div>
+
+						<div class="nav">
+							<ul>
+								<li><a href="mission.html">mission</a></li>
+								<li><a href="contact.html">contact</a></li>
+								<li><a href="login.html">login</a></li>
+							</ul>
+						</div>
+						<div class="clear"></div><!--CLEAR FLOAT-->
+					</div>
+				</div><!--END CONTAINER-->
+			</div><!--END HEADER-->
+
+<!------------------ MAIN CONTENT ------------------------------>
+
+			<div class="main">
+				<div class="container">
+					<div class="inner">
+						<div id="hero-left-side">
+							<div id="intro">
+								<h1>Find your audience</h1>
+								<div class="underline"></div>
+								<p>Who are waiting for you...</p>
+							</div>
+						</div><!--END LEFT-->
+
+						<div id="hero-right-side">
+							<form id="home-form">
+								<select type="text" name="talent" id="talent-input" class="form-inputs" placeholder="name"> 
+									<option>singer</option>
+									<option>producer</option>
+									<option>songwriter</option>
+								<select>
+								<br>
+								<input type="text" name="location" id="location-input" class="form-inputs" placeholder="location">
+								<br>
+								<input type="text" name="email" id="email-input" class="form-inputs" placeholder="email">
+								<br>
+								<input type="text" name="password" id="password-input" class="form-inputs" placeholder="password">
+								<br>
+								<input type="submit" name="button" value="sign up" id="submit-input" class="form-inputs">
+							</form>
+						</div><!--END RIGHT-->
+						<div class="clear-float"></div><!--CLEAR FLOAT-->
+					</div><!--END INNER--->
+				</div><!--END CONTAINER-->
+			</div><!--END MAIN-->
+
+			<div id="home-panel1">
+				<div class="container">
+					<div class="inner">
+						<div id="app-panel1-box">
+							<img id="app-panel1-img" src="img/FakeApp.png">							
+						</div>
+
+						<div id="text-panel1-box">
+							<div class="text-container">
+								<h3>
+									A Benefit
+								</h3>
+								<div class="underline"></div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
+						<div class="clear-float"></div>
+					</div><!-- END INNER -->
+				</div><!-- ND CONTAINER -->
+			</div><!-- END PANEL1 -->
+
+			<div id="home-panel2">
+				<div class="container">
+					<div class="inner">
+						<div id="text-panel2-box">
+							<div class="text-container">
+								<h3>
+									Another Benefit
+								</h3>
+								<div class="underline"></div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
+						
+						<div id="app-panel2-box">
+							<img id="app-panel2-img" src="img/FakeApp2.png">							
+						</div>
+						<div class="clear-float"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="home-panel3" class="panel-padding">
+				<div class="container">
+					<div class="inner">
+						<div id="text-panel3-box">
+							<div class="text-container">
+								<h3>
+									Join the community now!
+								</h3>
+								<div id="panel3-underline" class="underline"></div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+							</div>
+						</div>
+						<div class="app-store-box">
+							<img id="apple" src="img/app-store-badge.svg">
+							<img id="google" src="img/google-play-badge.svg">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="home-panel4" class="panel-padding">
+				<div class="container">
+					<div class="inner">
+						<div id="text-panel4-box">
+							<div class="text-container">
+								<h1>
+									Something whitty.
+									Something else clever.
+								</h1>
+								<div id="panel4-underline" class="underline"></div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="home-panel5" class="panel-padding">
+				<div class="container">
+					<div class="inner">
+						<div id="text-panel5a-box">
+							<!-- <img src="quotation-bubbles.png" width="100%"> -->
+							<img src="quote-girl4.svg" width="100%">
+						</div>
+
+						<div id="text-panel5-box">
+							<div class="text-container">
+								<h1>
+									Testimonials.
+								</h1>
+								<div id="panel5-underline" class="underline"></div>
+								<p id="testimonial">
+									Something meaningful.
+								</p>
+								<button type="button" onclick="myFunction()" id="testimonial-button">What someone else said</button>
+							</div>
+						</div>
+						<div class="clear-float"></div>
+
+					</div>
+				</div>
+			</div>
+
+<!------------------ FOOTER ------------------------------>
+
+			<div class="footer">
+				<div class="container">
+					<div id="app"></div>
+					<div id="socials">
+						<a href="#">
+							<img src="img/insta.png">
+						</a>
+						<a href="#">
+							<img src="img/twitter.png">
+						</a>
+						<a href="#">
+							<img src="img/facebook.png">
+						</a>
+					</div>
+					<p>
+						&copy; Created by Romaine Smith. All Rights Reserved. 
+						<br>
+						Don&rsquo;t even know what that means.
+					</p>
+				</div><!--END CONTAINER-->
+			</div><!--END FOOTER-->
+		</div><!--END WRAPPER-->
+	</body>
+</html>

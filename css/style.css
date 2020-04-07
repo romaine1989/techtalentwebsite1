@@ -1,0 +1,839 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,700,700i,800|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+
+
+/********************** GENERAL ************************/
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-size: 'Poppins', sans-serif;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+h3 {
+	margin-bottom: 5.82%;
+	font-size: 30px;
+}
+
+
+p {
+	font-size: 16px;
+	line-height: 1.8em;
+}
+
+.inner {
+	width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.panel-padding {
+	padding: 150px 0;
+}
+
+
+/********************** HEADER ************************/
+
+
+.site-title h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.header a {
+	text-decoration: none; 
+	color: #5f9ea0;
+}
+
+.header a:hover {
+	color: #93C5C7;
+} 
+
+.header-container {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 40px;
+}
+
+
+.header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: rgba(255,255,255,0.6);
+	height: 80px;
+}
+
+.site-title {
+	float: left;
+	margin-top: 15px;
+}
+
+.nav {
+	float: right;
+	text-align: right;
+	margin-top: 15px;
+}
+
+.nav li {
+	display: inline-block;
+	margin-left: 32px;
+}
+
+.clear-float {
+	clear: both;
+}
+
+
+/********************** HERO/MAIN CONTENT ************************/
+
+.main {
+	margin-top: 79px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #F1F6F6;
+	background: #C9E5E7;
+	background: linear-gradient(rgba(201,229,231, 0.78), rgba(201,229,231, 0.3)), url(../gplay.png);
+	/*background: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url(../cutcube.png);*/
+	background-attachment: fixed;
+    padding: 150px 0;
+}
+
+
+#hero-right-side, #hero-left-side {
+	float: left;
+}
+
+#hero-left-side {
+	width: 40%;
+}
+
+#intro {
+	width: 70%;
+}
+
+#hero-left-side h1 {
+	font-size: 75px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#hero-right-side {
+	width: 60%;
+}
+
+
+#home-form {
+	padding: 0 10%;
+}
+
+.form-inputs {
+	margin-bottom: 1.4rem;
+	border-radius: 2rem;
+	border: 1px solid #ced4da;
+	padding: 0.90rem 1.4rem;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 16px;
+	text-transform: capitalize;
+	width: 100%;
+	border: 0;
+	box-sizing: border-box;
+}
+
+#talent-input {
+	width: 100%!important;
+}
+
+#submit-input {
+	background: rgba(0, 0, 255, 0.72);
+	background: rgba(0, 0, 0, 0.24);
+	background-color: #99AEB0;
+	color: white;
+	margin-top: 1rem;
+	width: 100%;
+	text-transform: uppercase;
+	padding: 20px 45px!important;
+	letter-spacing: 3px;
+}
+
+#submit-input:hover {
+	background-color: #93C5C7;
+}
+
+/********************** PANEL 1 ************************/
+
+#home-panel1 {
+	background-color: white;  
+	padding-bottom: 6rem;
+}
+
+.text-container {
+	padding: 30px;
+}
+
+#app-panel1-box {
+	float: left;
+	width: 40%;
+	margin-top: -120px;
+}
+
+#app-panel1-img, #app-panel2-img {
+	width: 100%;
+}
+
+#text-panel1-box {
+	float: left;
+	width: 50%;
+	padding-top: 180px;
+}
+
+/********************** PANEL 2 ************************/
+
+
+/*#home-panel2 {
+	padding-top: 12rem; 
+}*/
+
+#text-panel2-box {
+	float: left;
+	width: 50%;
+	padding-top: 180px;
+}
+
+#app-panel2-box {
+	float: left;
+	width: 40%;
+}
+
+.underline {
+	width: 15%;
+    padding: 1px;
+    background: #FFDD97;
+    background: #5f9ea0;
+    margin: 2rem 0;
+}
+
+/********************** PANEL 3 ************************/
+
+#home-panel3 {
+	text-align: center;
+	background: #ffdd97;
+	background: rgba(0,0,0,0.24);
+	color: #ccc!important;
+	color: #fff!important;
+}
+
+#panel3-underline {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.app-store-box {
+	margin: auto;
+	text-align: center;
+}
+
+.app-store-box img {
+	width: 203px;
+	display: inline-block;
+}
+
+#apple {
+	margin-right: 10px;
+}
+
+/********************** PANEL 4 ************************/
+
+#home-panel4 {
+	/*background-image: url("/img/bg.png");
+	height: 100%;
+    background-attachment: fixed; 
+    background-position: 9% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   	background-image: url(../panel-background.jpg);*/
+  	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../panel-background.jpg);
+	background-attachment: fixed;
+	height: 100%;
+    background-position: 9% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+#text-panel4-box {
+	color: black;
+	width: 40%;
+}
+
+/********************** PANEL4: Panel5 ************************/
+
+/*#text-panel5a-box {
+	display: none;
+}*/
+
+#testimonial-button {
+	background: rgba(0, 0, 255, 0.72);
+	background: rgba(0, 0, 0, 0.24);
+	background-color: #99AEB0;
+	color: white;
+	margin-top: 1rem;
+	text-transform: uppercase;
+	padding: 20px 45px!important;
+	letter-spacing: 3px;
+	margin-bottom: 1.4rem;
+    border-radius: 2px;
+    border: 1px solid #ced4da;
+    padding: 0.90rem 1.4rem;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#text-panel5-box {
+	float: left;
+    /*text-align: center;
+    background-position: center;*/
+   /* padding-top: 120px;*/
+}
+
+#home-panel5 {
+	/*box-sizing: content-box;
+    background: linear-gradient(45deg,rgba(255,255,255, 1), rgba(255,255,255, 0.1)), url('../talking.jpg');
+   	background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;*/
+}
+
+#panel5-underline {
+	margin: 2rem 0!important;
+}
+
+/*#text-panel5-box {
+	float: left;
+}
+
+#text-panel5a-box {
+	float: right;
+}*/
+
+#text-panel5a-box {
+	/*background: linear-gradient(45deg, rgba(255,255,255, 1), rgba(255,255,255, 0)), url(../Artboard 1.png);
+    background-repeat: no-repeat;*/
+    float: left;
+    width: 60%;
+}
+
+/********************** FOOTER ************************/
+.footer {
+	text-align: center;
+	color: white;
+	background: black;
+	padding: 30px 0;
+}
+
+.footer p {
+	font-size: 10px;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+#socials img {
+	width: 80px;
+	margin: 0 4px;
+}
+
+/*#mission-quote {
+	float: left;
+	width: 30%;
+}*/
+
+#mission-box {
+	width: 55%;
+	float: left;
+}
+
+#mission-box button {
+	background: #99AEB0;
+    border: 1px solid #849596;
+    border: 2px solid #5f9ea0;
+    border: 0;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    border-radius: 2px;
+    margin-top: 1rem;
+}
+
+#mission-box button:hover {
+	background: #93C5C7;
+}
+
+#about-app {
+	margin-bottom: -154px;
+	float: right;
+}
+
+
+/*#mission-quote h1 {
+	font-size: 70px!important;
+	font-weight: lighter;
+	font-style: italic;
+	margin: 0;
+}*/
+
+/************************ CONTACT INRTO *************************/
+#contact-intro {
+	margin-top: 79px;
+	background: #C9E5E7;
+	background: linear-gradient(rgba(201,229,231, 0.78), rgba(201,229,231, 0.3)), url(../gplay.png);
+	/*background: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url(../cutcube.png);*/
+	background-attachment: fixed;
+	padding: 60px 0;
+}
+
+#contact-intro h3 {
+	margin-bottom: inherit;
+}
+
+
+/************************ CONTACT MAIN *************************/
+
+
+#contact-form-inner-box {
+	width: 60%;
+}
+
+#contact-form-inner-box {
+	float: left;
+	margin-right: 5rem;
+}
+
+#contact-box {
+	float: left;
+}
+
+
+#contact-form-inner-box textarea {
+	margin-bottom: 1.4rem;
+    border-radius: 2rem;
+    border: 1px solid #ced4da;
+    padding: 0.90rem 1.4rem;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 100%;
+    border: 0;
+    box-sizing: border-box;
+    height: 18rem;
+}
+
+#contact-main-box {
+	padding: 90px 0;
+}
+
+.contact-form, #contact-form-inner-box textarea {
+	box-shadow: 2px 2px 15px 0px rgba(226,226,226,0.6);
+}
+
+#contact-details li {
+	list-style-type: none; 
+	margin-bottom: 2rem;
+	/*box-sizing: content-box;
+    position: relative;*/
+}
+
+#contact-box .contact-item {
+	float: left;
+}
+
+#contact-details ul {
+	margin-top: 0;
+}
+
+#contact-details a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#contact-item-location p {
+	margin-top: 0;
+}
+
+
+#contact-box img {
+	width: 20px;
+	margin-right: 20px;
+}
+
+/************* LOGIN PAGE ************/
+#login-container {
+	background: #ecf2f5;
+	position: fixed;
+	width: 340px;
+	height: 360px;
+	left: calc(50% - 170px);
+	top: calc(50% - 180px);
+	padding: 40px;
+}
+
+#login-container form {
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	padding: 28px;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+#login-container label[for=username], #login-container label[for=password], #login-container input[type=text] {
+	display: block;
+}
+
+#login-container label[for=username], #login-container label[for=password] {
+	padding-top: 10px;
+}
+
+#login-container input[type=text]{
+	margin-top: 10px;
+	width: 100%;
+		margin-bottom: 1.4rem;
+	    border-radius: 2rem;
+	    border: 1px solid #ced4da;
+	    padding: 0.90rem 1.4rem;
+	    font-size: 16px;
+	    box-sizing: border-box;
+}
+
+
+
+
+/***** LOWER FORM *******/
+
+#lower-form {
+	position: relative;
+	margin-top: 40px;
+	height: 66px;
+}
+
+#lower-form input[type=checkbox]{
+	margin-left: 18px;
+	height: 60px;
+	vertical-align: middle;
+}
+
+#lower-form input[type=submit]{
+    width: 80px;
+    height: 30px;
+    vertical-align: middle;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 15px);
+
+    font-weight: bold;
+	color: #fff;
+	background-color: #acd6ef; /*IE fallback*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#acd6ef), to(#6ec2e8));
+	background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+	background-image: linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+	border-radius: 30px;
+	border: 1px solid #66add6;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+}
+
+#lower-form input[type=checkbox], #lower-form label {
+	display: inline-block;
+}
+
+/*************ALL MOBILES DEVICES************/
+@media screen and (max-width: 768px) {
+
+	/******** HERO **********/
+	#hero-left-side {
+		width: 100%;
+		}
+
+	#hero-right-side {
+    	width: 100%;
+		}
+
+	#home-form {
+	    padding: 0 0%;
+		}
+
+	#intro {
+		margin-bottom: 2rem;
+	}
+
+	/******** HOME PANEL1 **********/
+	#app-panel1-box {
+		float:none;
+		width: inherit;
+		text-align: center;
+		margin: 0 auto!important;
+	}
+
+	#app-panel1-img, #app-panel2-img {
+		width: 80%;
+	}
+
+	#home-panel1 {
+		padding-top: 6rem;
+	}
+
+	#text-panel1-box {
+	    float: none;
+	    width: 100%;
+	    padding-top: inherit;
+	    text-align: center;
+	}
+
+	#text-panel1-box .underline {
+    width: 15%;
+    margin: 2rem auto;
+	}
+
+	/******** HOME PANEL2 **********/
+	#text-panel2-box {
+	    float: none;
+	    width: 100%;
+	    padding-top: 6rem;
+	    text-align: center;
+	}
+
+	#home-panel2 .inner {
+		border-top: 1px solid #5f9ea0;
+	}
+
+	#text-panel2-box .underline {
+    width: 15%;
+    margin: 2rem auto;
+	}
+
+	#app-panel2-box {
+		float:none;
+		width: inherit;
+		text-align: center;
+		margin: 0 auto!important;
+	}
+
+	#app-panel2-img {
+		margin: 2rem auto;
+	}
+
+	/******** HOME PANEL3 **********/
+	#text-panel4-box {
+	    color: #000;
+	    color: white;
+	    color: rgba(255,255,255,0.9);
+	    width: 80%;
+	}
+
+	#home-panel4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../panel-background.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    background-position: 9% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	}
+
+	/******** MISSION **********/
+	#mission-box {
+	    width: 100%;
+	    float: none;
+	    margin-bottom: 6rem; 
+	}
+
+	#about-app {
+	    float: none;
+	    text-align: ;
+	}
+
+	#about-app img {
+		width: 40%;
+	}
+
+	/******** CONTACT **********/
+	#contact-form-inner-box {
+    		width: 100%;
+    		float: none;
+    		margin-right: inherit;
+    		margin-bottom: 4rem;
+		}
+
+	#contact-box ul {
+		    padding-inline-start: 10px;
+	}
+
+}
+
+/*************JUST TABLET************/
+@media only screen and (max-width: 980px) {
+	/******** HERO **********/
+	#hero-left-side {
+		width: 100%;
+		}
+
+	#hero-right-side {
+    	width: 100%;
+		}
+
+	#home-form {
+	    padding: 0 0%;
+		}
+
+	#intro {
+		margin-bottom: 2rem;
+	}
+
+	/******** HOME PANEL1 **********/
+	#app-panel1-box {
+		float:none;
+		width: inherit;
+		text-align: center;
+		margin: 0 auto!important;
+	}
+
+	#app-panel1-img, #app-panel2-img {
+		width: 80%;
+	}
+
+	#home-panel1 {
+		padding-top: 6rem;
+	}
+
+	#text-panel1-box {
+	    float: none;
+	    width: 100%;
+	    padding-top: inherit;
+	    text-align: center;
+	}
+
+	#text-panel1-box .underline {
+    width: 15%;
+    margin: 2rem auto;
+	}
+
+	/******** HOME PANEL2 **********/
+	#text-panel2-box {
+	    float: none;
+	    width: 100%;
+	    padding-top: 6rem;
+	    text-align: center;
+	}
+
+	#home-panel2 .inner {
+		border-top: 1px solid #5f9ea0;
+	}
+
+	#text-panel2-box .underline {
+    width: 15%;
+    margin: 2rem auto;
+	}
+
+	#app-panel2-box {
+		float:none;
+		width: inherit;
+		text-align: center;
+		margin: 0 auto!important;
+	}
+
+	#app-panel2-img {
+		margin: 2rem auto;
+	}
+
+	/******** HOME PANEL3 **********/
+	#text-panel4-box {
+	    color: #000;
+	    color: white;
+	    color: rgba(255,255,255,0.9);
+	    width: 80%;
+	}
+
+	#home-panel4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../panel-background.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    background-position: 9% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	}
+
+	/******** HOME PANEL5 **********/
+	#text-panel5-box {
+		float: none;
+	    text-align: center;
+	    padding-top: inherit;
+	}
+
+	#panel5-underline {
+		margin: 2rem auto!important;
+	}
+
+	#text-panel5a-box {
+		display: none;
+	}
+
+	/******** MISSION **********/
+	#mission-box {
+	    width: 100%;
+	    float: none;
+	    margin-bottom: 6rem; 
+	}
+
+	#about-app {
+	    float: none;
+	    text-align: ;
+	}
+
+	#about-app img {
+		width: 40%;
+	}
+
+	/******** CONTACT **********/
+	#contact-form-inner-box {
+    		width: 100%;
+    		float: none;
+    		margin-right: inherit;
+    		margin-bottom: 4rem;
+		}
+
+	#contact-box ul {
+		    padding-inline-start: 10px;
+	}
+}
